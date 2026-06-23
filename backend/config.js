@@ -23,4 +23,7 @@ export const config = {
         cloudinary_api_key: process.env.CLOUDINARY_API_KEY,
         cloudinary_api_secret: process.env.CLOUDINARY_API_SECRET
     },
+    db:{
+    uri: process.env.DB_URI 
+  }
 }
